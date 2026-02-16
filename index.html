@@ -117,24 +117,23 @@ BLIP 2
 
 DLG 0
 """
-You: How are you?
-
-Torgash: i'm ok... But sales can't grow...
-
-Torgash: can you give me money?
-
-You: I haven't any money.
-
-Torgash: Ok, then you can't have this watermelon
-
-You: Hmmm{
+{
   - {item "0"} == 6 ?
     
     
     thanks! this is your watermelon!{end}
   - else ?
+    You: How are you?
     
+    Torgash: i'm ok... But sales can't grow...
     
+    Torgash: can you give me money?
+    
+    You: I haven't any money.
+    
+    Torgash: Ok, then you can't have this watermelon
+    
+    You: Hmmm
     
     Where is my money?
 }
